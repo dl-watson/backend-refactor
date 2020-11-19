@@ -42,10 +42,10 @@ async function run() {
           );
                 CREATE TABLE chats (
                     id SERIAL PRIMARY KEY NOT NULL,
-                    uuid VARCHAR(512) NOT NULL,
-                    timestamp VARCHAR(512) NOT NULL,
-                    speaker VARCHAR(512) NOT NULL,
-                    text VARCHAR(2048) NOT NULL
+                    uuid VARCHAR(8000) NOT NULL,
+                    timestamp VARCHAR(8000) NOT NULL,
+                    speaker VARCHAR(8000) NOT NULL,
+                    text VARCHAR(8000) NOT NULL
           );
                 CREATE TABLE favorites (
                     id SERIAL PRIMARY KEY NOT NULL,
