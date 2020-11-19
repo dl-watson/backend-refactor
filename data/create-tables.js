@@ -45,7 +45,7 @@ async function run() {
                     uuid VARCHAR(512) NOT NULL,
                     timestamp VARCHAR(512) NOT NULL,
                     speaker VARCHAR(512) NOT NULL,
-                    text VARCHAR(512) NOT NULL
+                    text VARCHAR(2048) NOT NULL
           );
                 CREATE TABLE favorites (
                     id SERIAL PRIMARY KEY NOT NULL,
