@@ -32,13 +32,13 @@ async function run() {
             );
                 CREATE TABLE transcripts (
                     id SERIAL PRIMARY KEY NOT NULL,
-                    uuid VARCHAR(512) NOT NULL,
-                    identifier VARCHAR(512) NOT NULL,
-                    time_start FLOAT NOT NULL,
-                    time_end FLOAT NOT NULL,
-                    speaker VARCHAR(512) NOT NULL,
-                    text VARCHAR(512) NOT NULL,
-                    keywords VARCHAR(512) NOT NULL
+                    uuid VARCHAR(8000) NOT NULL,
+                    identifier VARCHAR(8000) NOT NULL,
+                    time_start VARCHAR(8000) NOT NULL,
+                    time_end VARCHAR(8000) NOT NULL,
+                    speaker VARCHAR(8000) NOT NULL,
+                    text VARCHAR(8000) NOT NULL,
+                    keywords VARCHAR(8000) NOT NULL
           );
                 CREATE TABLE chats (
                     id SERIAL PRIMARY KEY NOT NULL,
